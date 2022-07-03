@@ -1,0 +1,6 @@
+{
+    "bot_token": "El token de tu bot",
+    "server_id": "La ID de tu servidor de Pterodactyl",
+    "api_key": "La API key de tu servidor de Pterodactyl",
+    "server_address": "La dirección de tu servidor Pterodactyl"
+}
