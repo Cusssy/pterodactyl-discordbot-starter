@@ -22,7 +22,7 @@ class PersistentView(discord.ui.View):
         emoji="🔌",
         custom_id="start_button")
     async def button_callback_start(self, button: discord.ui.Button,interaction: discord.Interaction):
-        await interaction.response.send_message(content="<:yellow:974584712574165002> El servidor se está encendiendo", ephemeral=True)
+        await interaction.response.send_message(content=":yellow_circle: El servidor se está encendiendo", ephemeral=True)
         StartServer()
 
 class PersistentViewBot(commands.Bot):
